@@ -1,0 +1,47 @@
+.punchline
+{
+  font:var(--font_3);
+  line-height: 2em;
+  letter-spacing: 0.4em;
+  font-weight: 100;
+  text-align: center;
+  padding-top:50px;
+  
+}
+
+.heading-logo
+{
+  font:var(--font_0);
+  text-align:center;
+  font-weight: 600;
+  margin-bottom:30px;
+}
+
+.Navbar-container
+{
+    display:flex;
+    justify-content: center;
+    height:50px;
+    width:100%;
+    border:1px solid black;
+}
+.Navbar
+{
+    width: 150px;
+    height: 100%;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--font_1);
+    font-weight: 100;
+}
+.Navbar p
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Navbar-container div:nth-child(6)
+{
+    border-right: 1px solid black;
+}

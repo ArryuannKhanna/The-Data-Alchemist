@@ -6,8 +6,105 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+a, abbr, acronym, address, applet, b, big, blockquote, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root
+{
+    --color_0: 255,255,255;
+    --color_44: 255,255,255;
+    --color_22: 131,168,240;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_23: 21,93,233;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 255,255,255;
+    --color_12: 232,230,230;
+    --color_13: 179,179,179;
+    --color_14: 89,89,89;
+    --color_15: 0,0,0;
+    --color_16: 201,165,248;
+    --color_17: 173,121,241;
+    --color_18: 102,0,234;
+    --color_24: 14,62,155;
+    --color_19: 68,0,156;
+    --color_20: 34,0,78;
+    --color_25: 7,31,78;
+    --color_26: 174,233,215;
+    --color_27: 131,211,187;
+    --color_28: 45,189,146;
+    --color_29: 30,126,97;
+    --color_30: 15,63,49;
+    --color_31: 245,171,207;
+    --color_32: 234,129,180;
+    --color_33: 224,22,120;
+    --color_34: 149,15,80;
+    --color_35: 75,7,40;
+    --color_36: 255,255,255;
+    --color_37: 0,0,0;
+    --color_38: 232,230,230;
+    --color_39: 179,179,179;
+    --color_40: 89,89,89;
+    --font_0: normal normal normal 116px/1.4em playfairdisplay-bold,'playfair display',serif;
+    --color_45: 0,0,0;
+    --color_41: 102,0,234;
+    --color_46: 0,0,0;
+    --color_47: 232,230,230;
+    --color_48: 102,0,234;
+    --color_49: 102,0,234;
+    --color_50: 255,255,255;
+    --color_51: 255,255,255;
+    -color_52: 102,0,234;
+    --color_53: 102,0,234;
+    --color_54: 179,179,179;
+    --color_55: 179,179,179;
+    --color_56: 255,255,255;
+    --color_57: 255,255,255;
+    --color_58: 102,0,234;
+    --color_59: 102,0,234;
+    --color_42: 0,0,0;
+    --color_60: 102,0,234;
+    --color_61: 102,0,234;
+    --color_62: 255,255,255;
+    --color_63: 255,255,255;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 38px/1.4em playfairdisplay-bold,'playfair display',serif;
+    --font_3: normal normal normal 22px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_4: normal normal normal 20px/1.4em playfairdisplay-bold,'playfair display',serif;
+    --font_5: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    --font_6: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_7: normal normal normal 17px/1.4em 'playfair display',serif;
+    --font_8: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --color_64: 179,179,179;
+    --color_21: 173,198,248;
+    --font_9: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --portals-z-index: 100001;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --minViewportSize: 320;
+    --maxViewportSize: 1920;
+    --color_65: 179,179,179;
+    --color_43: 179,179,179;
+    --theme-spx-ratio: 1px;
 }
