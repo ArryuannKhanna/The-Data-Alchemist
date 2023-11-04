@@ -1,15 +1,21 @@
 import './App.css';
-import FeatureBlog from './FeatureBlog/FeatureBlog';
-import Maincontent from './Maincontent/Maincontent';
-import Navbar from './Navbar/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import HomePage from './HomePage/HomePage';
+import Myblog from './Myblog/Myblog';
+import Contact from './Contact/contact';
+import About from './About/About';
 function App() {
   return (
-    <>
-     <Navbar/>
-     <FeatureBlog/>
-     <Maincontent/>
-    </>
+    <Router>
+    <Routes>
+    <Route path="/" element={<HomePage/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/myblog" element={<Myblog/>} />
+    <Route path="/contact" element={<Contact/>} />
+    </Routes>
+    </Router>
+    
   );
 }
 
